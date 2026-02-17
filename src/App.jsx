@@ -1,8 +1,11 @@
+import { Routes, Route, Navigate } from "react-router-dom";
+import AuthLayout from "./pages/Auth/AuthLayout";
+
 function App() {
   return (
-    <>
-      <div className="text-2xl bg-blue-500 font-bold">Hello world</div>
-    </>
+    <Routes>
+      <Route path="/login" element={<AuthLayout />} />
+    </Routes>
   );
 }
 
