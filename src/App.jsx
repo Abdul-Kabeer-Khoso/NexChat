@@ -1,10 +1,10 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import AuthLayout from "./pages/Auth/AuthLayout";
+import Auth from "./components/Auth.jsx";
 
 function App() {
   return (
     <Routes>
-      <Route path="/login" element={<AuthLayout />} />
+      <Route path="/auth" element={<Auth />} />
     </Routes>
   );
 }
