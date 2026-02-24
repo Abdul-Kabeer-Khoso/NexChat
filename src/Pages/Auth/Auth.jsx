@@ -10,7 +10,7 @@ const Auth = () => {
         {account == "login" ? (
           <div className="flex flex-col justify-center items-center">
             <h2 className="text-2xl text-center font-extrabold mt-3 mb-6">
-              Welcome Back
+              Welcome Back to NexChat
             </h2>
             <div className="w-full flex justify-center relative mt-5">
               <Mail
